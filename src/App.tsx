@@ -7,6 +7,8 @@ import BestMenu from './components/BestMenu'
 // type import
 import type {Mine, Address} from './model/Mine'
 
+// https://ahnlab.recruiter.co.kr/mrs2/applicant/resume/writeResume
+
 const data:Mine = {
   name:'jch',
   category: 'Personal',
@@ -42,7 +44,7 @@ const App:React.FC = () => {
         <Store 
           info={myData}
           changeAddress={changeAddress}/>
-        <BestMenu name="asdf" showMyMenu={showMyMenu}/>
+        <BestMenu name="test" showMyMenu={showMyMenu}/>
         <Docker/>
       </div>
     </>
