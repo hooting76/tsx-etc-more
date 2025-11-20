@@ -8,7 +8,7 @@ import BestMenu from './components/BestMenu'
 import type {Mine, Address} from './model/Mine'
 
 // https://ahnlab.recruiter.co.kr/mrs2/applicant/resume/writeResume
-
+// https://irisyj.tistory.com/79
 const data:Mine = {
   name:'jch',
   category: 'Personal',
